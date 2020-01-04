@@ -1,0 +1,12 @@
+<mat-sidenav-container class="app-container" >
+  <mat-sidenav mode="side" opened style="width: 35%;">
+    <div >
+      <div *ngIf="processItemList">
+        <app-folder [processItemList]="processItemList"></app-folder>
+      </div>
+    </div>
+  </mat-sidenav>
+  <mat-sidenav-content>Main content</mat-sidenav-content>
+</mat-sidenav-container>
+
+<!-- <router-outlet></router-outlet> -->
