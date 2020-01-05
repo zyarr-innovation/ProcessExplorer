@@ -1,14 +1,14 @@
 <mat-card *ngIf="processItem"
   [ngClass]="{'process-children-card': 0 != processItem.children.length}">
   <div *ngIf="0 != processItem.children.length">
-    <mat-accordion>
-      <mat-expansion-panel [expanded]="true">
+    <mat-accordion multi="true">
+      <mat-expansion-panel [expanded]="false">
         <mat-expansion-panel-header>
           <mat-panel-title>
             {{processItem.name}}
           </mat-panel-title>
           <mat-panel-description>
-            This is place for description            
+            {{processItem.comment}}            
           </mat-panel-description>
         </mat-expansion-panel-header>
         <app-folder [processItemList]="processItem.children"></app-folder>
@@ -26,13 +26,15 @@
     <mat-card-content>
       {{processItem.comment}}
     </mat-card-content>
+    <!-- 
     <mat-card-actions>
-      <!-- <button mat-button 
+      <button mat-button 
         [ngClass]="{'process-children-button': 0 != processItem.children.length }"
         matTooltip="{{processItem.name}}"
         (click)="onClick(processItem)">
           Open
-      </button> -->
+      </button>
     </mat-card-actions>
+     -->
   </div>
 </mat-card>

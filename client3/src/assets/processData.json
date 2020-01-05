@@ -589,6 +589,11 @@
                         "name": "angular Best Practices",
                         "comment": "Best Practices to build the angular js front end applications",
                         "children": []
+                    },
+                    {
+                        "name": "Web Services Best Practices",
+                        "comment": "Best Practices to build the web services components",
+                        "children": []
                     }
                 ]
             },
@@ -598,11 +603,16 @@
                 "children": [
                     {
                         "name": "Dynamic Analysis",
-                        "comment": "",
+                        "comment": "Analyze the state of the application when in execution",
                         "children": [
                             {
                                 "name": "MemoryValidator",
                                 "comment": "Memory Validator checks the memory leaks, resource and handle leak in C++ application",
+                                "children": []
+                            },
+                            {
+                                "name": "Performance Monitor",
+                                "comment": "Monitor the difference performance parameter such as memory, processor and hard disk activities",
                                 "children": []
                             }
                         ]
@@ -613,27 +623,27 @@
                         "children": [
                             {
                                 "name": "C++",
-                                "comment": "",
+                                "comment": "C++ Coding Guideline",
                                 "children": []
                             },
                             {
                                 "name": " .Net",
-                                "comment": "",
+                                "comment": "C++ Coding Guideline, Style guideline",
                                 "children": []
                             },
                             {
                                 "name": "Java",
-                                "comment": "",
+                                "comment": "Java Coding Guideline",
                                 "children": []
                             },
                             {
                                 "name": "Javascript",
-                                "comment": "",
+                                "comment": "Javascript Coding Guideline",
                                 "children": []
                             },
                             {
                                 "name": "TypeScript",
-                                "comment": "",
+                                "comment": "Typescript Coding Guideline",
                                 "children": []
                             }
                         ]
@@ -644,130 +654,130 @@
                         "children": [
                             {
                                 "name": "PVS Studio",
-                                "comment": "",
+                                "comment": "C++ Static analysis tool",
                                 "children": []
                             },
                             {
                                 "name": "FXCop",
-                                "comment": "",
+                                "comment": ".Net static analysis tool",
                                 "children": []
                             },
                             {
                                 "name": "CheckMarx",
-                                "comment": "",
+                                "comment": "Static security analysis for different languages",
                                 "children": []
                             },
                             {
                                 "name": "Coverity",
-                                "comment": "",
+                                "comment": "Static analysis tool for C++",
                                 "children": []
                             },
                             {
                                 "name": "Sonar",
-                                "comment": "",
+                                "comment": "Static analysis tool for java",
                                 "children": []
                             },
                             {
                                 "name": "TSLint",
-                                "comment": "",
+                                "comment": "Static analysis tool for Typescript",
                                 "children": []
                             },
                             {
                                 "name": "JSLint",
-                                "comment": "",
+                                "comment": "Static analysis tool for Javascript",
                                 "children": []
                             }
                         ]
                     },
                     {
                         "name": "Third Party Review",
-                        "comment": "",
+                        "comment": "Third party code review",
                         "children": []
                     },
                     {
                         "name": "Maintenance Manual",
-                        "comment": "",
+                        "comment": "Maintenance manual describing the checkout, build and analysis",
                         "children": []
                     }
                 ]
             },
             {
                 "name": "Deployment",
-                "comment": "",
+                "comment": "Process describing the deployment of the software product",
                 "children": [
                     {
                         "name": "Secure Deployment",
-                        "comment": "",
+                        "comment": "Documents consider the security of the system.",
                         "children": [
                             {
                                 "name": "Physical Security",
-                                "comment": "",
+                                "comment": "Document describing the physical security of the system",
                                 "children": []
                             },
                             {
                                 "name": "Hardened OS",
-                                "comment": "",
+                                "comment": "Document describing the procedure for hardening of the operating system",
                                 "children": []
                             },
                             {
                                 "name": "Network Security",
-                                "comment": "",
+                                "comment": "Document describing the procedure for network security",
                                 "children": []
                             },
                             {
                                 "name": "Secure Server Access",
-                                "comment": "",
+                                "comment": "Document describing the procedure for securing the servers",
                                 "children": []
                             },
                             {
                                 "name": "Application Security",
-                                "comment": "",
+                                "comment": "Document describing the procedure for securing the servers",
                                 "children": [
                                     {
                                         "name": "WebServer Security",
-                                        "comment": "",
+                                        "comment": "Document describing the procedure for securing the web servers",
                                         "children": []
                                     },
                                     {
                                         "name": "Database Security",
-                                        "comment": "",
+                                        "comment": "Document describing the procedure for securing the database servers",
                                         "children": []
                                     },
                                     {
                                         "name": "Service Security",
-                                        "comment": "",
+                                        "comment": "Document describing the procedure for securing the servers",
                                         "children": []
                                     }
                                 ]
                             },
                             {
                                 "name": "Install Binary security",
-                                "comment": "",
+                                "comment": "Document describing the procedure for installation binary security",
                                 "children": []
                             },
                             {
                                 "name": "Log File Security",
-                                "comment": "",
+                                "comment": "Document describing the procedure for log file security",
                                 "children": []
                             },
                             {
                                 "name": "Application Configuration Security",
-                                "comment": "",
+                                "comment": "Documet describing the procedure for application configuration security",
                                 "children": []
                             },
                             {
                                 "name": "Application Communication Security",
-                                "comment": "",
+                                "comment": "Document describing the procedure for application communication security",
                                 "children": []
                             },
                             {
                                 "name": "Application Access Security",
-                                "comment": "",
+                                "comment": "Document describing the procedure for application access security",
                                 "children": []
                             },
                             {
                                 "name": "Third Party Component List",
-                                "comment": "",
+                                "comment": "Document describing the procedure for third party component list",
                                 "children": []
                             }
                         ]
@@ -778,126 +788,126 @@
                         "children": [
                             {
                                 "name": "Legal Review",
-                                "comment": "",
+                                "comment": "Document describing the legal licensing terms.",
                                 "children": []
                             }
                         ]
                     },
                     {
                         "name": "Installation Guide",
-                        "comment": "",
+                        "comment": "Document describing the steps required for creation of installation guide",
                         "children": []
                     },
                     {
                         "name": "Help",
-                        "comment": "",
+                        "comment": "Document describing the steps requred for creation of help document",
                         "children": []
                     },
                     {
                         "name": "ReadMe.txt",
-                        "comment": "",
+                        "comment": "Document describing the steps requred for creation of Readme.txt document",
                         "children": []
                     },
                     {
                         "name": "Operation Guide",
-                        "comment": "",
+                        "comment": "Document describing the steps requred for creation of product operation document",
                         "children": []
                     }
                 ]
             },
             {
                 "name": "Training",
-                "comment": "",
+                "comment": "Document describing the trainig requirement",
                 "children": [
                     {
                         "name": "On Boarding",
-                        "comment": "",
+                        "comment": "Document describing the various on boarding training",
                         "children": []
                     },
                     {
                         "name": "Technical",
-                        "comment": "",
+                        "comment": "Document describing the various technical training required for the project",
                         "children": []
                     },
                     {
-                        "name": "Product",
-                        "comment": "",
+                        "name": "Domain",
+                        "comment": "Document describing the various domain training required for the project",
                         "children": []
                     }
                 ]
             },
             {
                 "name": "Quality Assurance",
-                "comment": "",
+                "comment": "Document describing the procedure for quality assurances",
                 "children": [
                     {
                         "name": "System Test",
-                        "comment": "",
+                        "comment": "Documenting the steps for creating System Test cases",
                         "children": [
                             {
-                                "name": "Test Management Tools",
-                                "comment": "",
+                                "name": "Tools for Quality management",
+                                "comment": "Document describing the various tools required for quality management",
                                 "children": [
                                     {
                                         "name": "Automation Tools",
-                                        "comment": "",
+                                        "comment": "Automated testing tools, based on the technical requirement",
                                         "children": []
                                     },
                                     {
                                         "name": "Defect Management Tools",
-                                        "comment": "",
+                                        "comment": "Tools for logging and management of the defects",
                                         "children": []
                                     },
                                     {
                                         "name": "Test Case/Test Plan Management tool",
-                                        "comment": "",
+                                        "comment": "Tools for managing the test plan and test casess",
                                         "children": []
                                     }
                                 ]
                             },
                             {
                                 "name": " Test Environment",
-                                "comment": "",
+                                "comment": "Document describing the environment for execution of testing",
                                 "children": [
                                     {
                                         "name": "Hardware Setup",
-                                        "comment": "",
+                                        "comment": "Hardware setup required for testing.",
                                         "children": []
                                     },
                                     {
                                         "name": "Lab Setup",
-                                        "comment": "",
+                                        "comment": "Lab setup required for testing",
                                         "children": []
                                     },
                                     {
                                         "name": "Simulators",
-                                        "comment": "",
+                                        "comment": "Simulators required for testing end to end",
                                         "children": []
                                     }
                                 ]
                             },
                             {
                                 "name": "Quality Attributes Tests",
-                                "comment": "",
+                                "comment": "Test cases covering the various quality attributes",
                                 "children": [
                                     {
                                         "name": "Reliability / MTBF / MTTR",
-                                        "comment": "",
+                                        "comment": "Test cases covering the various reliability and other non-functional requirements",
                                         "children": []
                                     },
                                     {
                                         "name": "Authentication & Authorization",
-                                        "comment": "",
+                                        "comment": "Test cases covering the authentication and authorization requirement",
                                         "children": []
                                     },
                                     {
-                                        "name": "Scalibility",
-                                        "comment": "",
+                                        "name": "Scalability",
+                                        "comment": "Test cases covering the scalability requirements",
                                         "children": []
                                     },
                                     {
                                         "name": "Performance",
-                                        "comment": "",
+                                        "comment": "Test cases covering the performance requirements",
                                         "children": []
                                     }
                                 ]
@@ -906,148 +916,148 @@
                     },
                     {
                         "name": "Regression Tests",
-                        "comment": "",
+                        "comment": "Test cases regressing the system",
                         "children": []
                     },
                     {
                         "name": "Performance Tests",
-                        "comment": "",
+                        "comment": "Test cases covering the performance requirement",
                         "children": []
                     },
                     {
                         "name": "Stress Tests",
-                        "comment": "",
+                        "comment": "Test cases stressing the system",
                         "children": []
                     },
                     {
                         "name": "Load tests",
-                        "comment": "",
+                        "comment": "Test cases covering the load of system",
                         "children": []
                     },
                     {
                         "name": "Beta Tests",
-                        "comment": "",
+                        "comment": "Procedure for performing beta testing",
                         "children": []
                     },
                     {
                         "name": "Smoke Tests",
-                        "comment": "",
+                        "comment": "Procedure for executing smoke testing",
                         "children": []
                     },
                     {
                         "name": "First Article Tests",
-                        "comment": "",
+                        "comment": "Procedure and steps reqired for performing First Article test plan",
                         "children": []
                     },
                     {
                         "name": "Test Completion Report",
-                        "comment": "",
+                        "comment": "Procedure for creating test completion reports",
                         "children": []
                     },
                     {
                         "name": "Traceability Metrix",
-                        "comment": "",
+                        "comment": "Procedure for creating traceability matrix",
                         "children": []
                     },
                     {
                         "name": "Security Testing",
-                        "comment": "",
+                        "comment": "Steps reqired for security testing",
                         "children": [
                             {
                                 "name": " Secure Coding Standards",
-                                "comment": "",
+                                "comment": "Secure coding standard based on the technology",
                                 "children": []
                             },
                             {
                                 "name": "Open Source Scan",
-                                "comment": "",
+                                "comment": "Procedure for performing open source scan",
                                 "children": []
                             },
                             {
                                 "name": "Nessus Scan",
-                                "comment": "",
+                                "comment": "Procedure for performing nessus scan",
                                 "children": []
                             },
                             {
                                 "name": "ZAP",
-                                "comment": "",
+                                "comment": "Procedure for performing Zed Attack Proxy scan",
                                 "children": []
                             },
                             {
                                 "name": "Web Inspect",
-                                "comment": "",
+                                "comment": "Procedure for performing Web Inspect scan",
                                 "children": []
                             },
                             {
                                 "name": "NMap",
-                                "comment": "",
+                                "comment": "Procedure for performing NMap scan",
                                 "children": []
                             },
                             {
                                 "name": "SigCheck",
-                                "comment": "",
+                                "comment": "Procedure for creating SigCheck report",
                                 "children": []
                             },
                             {
                                 "name": "SRL Reports",
-                                "comment": "",
+                                "comment": "Procedure for performing SRL for third party libraries",
                                 "children": []
                             },
                             {
                                 "name": "Code Signing",
-                                "comment": "",
+                                "comment": "Procedure for performing code signing",
                                 "children": []
                             },
                             {
                                 "name": "Obfuscation",
-                                "comment": "",
+                                "comment": "Procedure for performing obfuscation",
                                 "children": []
                             },
                             {
                                 "name": "Watermarking",
-                                "comment": "",
+                                "comment": "Procedure for performing watermarking",
                                 "children": []
                             },
                             {
                                 "name": "Data Encryption",
-                                "comment": "",
+                                "comment": "Procedure for performing data encryption",
                                 "children": []
                             },
                             {
                                 "name": "Easter Egg",
-                                "comment": "",
+                                "comment": "Procedure for creating easter egg",
                                 "children": []
                             },
                             {
                                 "name": "Secure Deployment Guide",
-                                "comment": "",
-                                "children": []
-                            },
-                            {
-                                "name": "DID Tests",
-                                "comment": "",
+                                "comment": "Procedure for creating secure deployment guide",
                                 "children": []
                             },
                             {
                                 "name": "Fuzz Testing",
-                                "comment": "",
+                                "comment": "Procedure for performing fuzz testing",
                                 "children": []
                             },
                             {
                                 "name": "Penetration Testing",
-                                "comment": "",
+                                "comment": "Procedure for performing penetration testing",
                                 "children": []
                             },
                             {
                                 "name": "Red Team Testing",
-                                "comment": "",
+                                "comment": "Procedure for performing Red Team Assesment",
+                                "children": []
+                            },
+                            {
+                                "name": "Blue Team Testing",
+                                "comment": "Procedure for performing Blue Team Assesment",
                                 "children": []
                             }
                         ]
                     },
                     {
                         "name": "NCA & RCA",
-                        "comment": "",
+                        "comment": "Procedure for executing NCA and RCA",
                         "children": []
                     }
                 ]
