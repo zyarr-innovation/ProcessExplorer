@@ -1,0 +1,31 @@
+<div style="position:absolute;top:0;left:0;right:0;bottom:0;">
+  <mat-toolbar class="fixed-header">
+    <div>
+      <div *ngIf="processItemList">
+        <mat-button-toggle-group name="currentProcessItem" >
+          <mat-button-toggle 
+            *ngFor="let processItem of processItemList[0].children; index as i;"
+            [value]="processItem.name"
+            (click)="onClick(processItem)"
+            [checked]="0==i" >
+            {{processItem.name}}
+          </mat-button-toggle>
+        </mat-button-toggle-group>
+      </div>
+    </div>
+  </mat-toolbar>
+  <mat-sidenav-container #sidenav  style="height:100%;">
+    <mat-sidenav mode="side" opened="true" #sidenav style="width:25%;">        
+      <!-- ommited -->
+      <div class="inner-sidenav-content">
+        <div>
+          <div *ngIf="currentItem">
+            <!-- <app-folder #folder [processItemList]="currentItem"></app-folder> -->
+            <app-folder #folder [processItemList]='currentItem'></app-folder>
+          </div>
+        </div>
+      </div>
+
+    </mat-sidenav>
+  </mat-sidenav-container>
+</div>
